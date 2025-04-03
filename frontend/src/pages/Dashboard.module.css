@@ -1,0 +1,31 @@
+.statCard {
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .statIcon {
+    background-color: rgba(25, 118, 210, 0.1);
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 16px;
+    color: #1976d2;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .statValue {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  
+  .statLabel {
+    color: #757575;
+    font-size: 0.875rem;
+  }
